@@ -2,7 +2,6 @@
 
 function timeConversion($s)
 {
-    echo strtotime($s);
-
+    echo date('H:i:s', strtotime($s));
 }
 timeConversion("07:05:45PM");
